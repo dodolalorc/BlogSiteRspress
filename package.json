@@ -1,0 +1,19 @@
+{
+  "name": "BlogSiteRspress",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rspress build",
+    "dev": "rspress dev",
+    "preview": "rspress preview"
+  },
+  "dependencies": {
+    "@rspress/shared": "^1.43.13",
+    "rspress": "^1.40.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@rspress/plugin-playground": "^1.43.13",
+    "@types/node": "^18.11.17"
+  }
+}

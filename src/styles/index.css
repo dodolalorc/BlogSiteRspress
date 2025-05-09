@@ -1,0 +1,19 @@
+@import url(./ui/FriendLink);
+
+:root {
+  /* 修改主题色 */
+  --rp-c-brand: #f00;
+  --rp-c-brand-dark: #ffa500;
+  --rp-c-brand-darker: #c26c1d;
+  --rp-c-brand-light: #f2a65a;
+  --rp-c-brand-lighter: #f2a65a;
+  /* 修改左侧侧边栏宽度 */
+  --rp-sidebar-width: 280px;
+  /* 修改右侧大纲栏宽度 */
+  --rp-aside-width: 256px;
+  /* 修改代码块标题背景 */
+  --rp-code-title-bg: rgba(250, 192, 61, 0.15);
+  /* 修改代码块内容背景 */
+  --rp-code-block-bg: rgba(214, 188, 70, 0.05);
+}
+
