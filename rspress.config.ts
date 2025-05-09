@@ -11,7 +11,6 @@ export default defineConfig({
     light: "/icon.png",
     dark: "/icon.png",
   },
-  outDir: path.join(__dirname, "public"),
   plugins: [
     pluginPlayground(),
   ],
