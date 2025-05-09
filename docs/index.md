@@ -12,9 +12,9 @@ hero:
     - theme: alt
       text: 🚀 我的 GitHub
       link: https://github.com/dodolalorc
-  # image:
-  #   src: /dodola.png
-  #   alt: Logo
+  image:
+    src: /miku.png
+    alt: Logo
 # features:
 #   - title: Blazing fast build speed
 #     details: The core compilation module is based on the Rust front-end toolchain, providing a more ultimate development experience.
