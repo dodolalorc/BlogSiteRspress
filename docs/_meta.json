@@ -1,27 +1,27 @@
 [
-  {
-    "text": "🍍主页",
-    "link": "/",
-    "activeMatch": "^/$"
-  },
-  {
-    "text": "🍬博客",
-    "link": "/posts/",
-    "activeMatch": "/posts/"
-  },
-  {
-    "text": "⭐项目",
-    "link": "/projects/",
-    "activeMatch": "/projects/"
-  },
-  {
-    "text": "😺关于",
-    "link": "/about/",
-    "activeMatch": "/about/"
-  },
-  {
-    "text": "🪼友链",
-    "link": "/links/",
-    "activeMatch": "/links/"
-  }
+	{
+		"text": "🍍主页",
+		"link": "/",
+		"activeMatch": "^/$"
+	},
+	{
+		"text": "🍬博客",
+		"link": "/posts/",
+		"activeMatch": "/posts/"
+	},
+	{
+		"text": "⭐项目",
+		"link": "/projects/",
+		"activeMatch": "/projects/"
+	},
+	{
+		"text": "😺关于",
+		"link": "/about/",
+		"activeMatch": "/about/"
+	},
+	{
+		"text": "🪼友链",
+		"link": "/links/",
+		"activeMatch": "/links/"
+	}
 ]

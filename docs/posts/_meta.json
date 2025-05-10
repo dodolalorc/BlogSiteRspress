@@ -1,42 +1,42 @@
 [
-  {
-    "type": "file",
-    "name": "index",
-    "label": "博客总览"
-  },
-  {
-    "type": "dir",
-    "name": "algorithm",
-    "label": "算法题解记录"
-  },
-  {
-    "type": "dir",
-    "name": "csapp",
-    "label": "CS:APP 实验记录"
-  },
-  {
-    "type": "dir",
-    "name": "rust",
-    "label": "Rust 学习"
-  },
-  {
-    "type": "dir",
-    "name": "electronjs",
-    "label": "Electron 开发笔记"
-  },
-  {
-    "type": "dir",
-    "name": "front_end",
-    "label": "前端八股文"
-  },
-  {
-    "type": "dir",
-    "name": "fool",
-    "label": "捣鼓小玩具"
-  },
-  {
-    "type": "dir",
-    "name": "startsite",
-    "label": "小站美化历史"
-  }
+	{
+		"type": "file",
+		"name": "index",
+		"label": "博客总览"
+	},
+	{
+		"type": "dir",
+		"name": "algorithm",
+		"label": "算法题解记录"
+	},
+	{
+		"type": "dir",
+		"name": "csapp",
+		"label": "CS:APP 实验记录"
+	},
+	{
+		"type": "dir",
+		"name": "rust",
+		"label": "Rust 学习"
+	},
+	{
+		"type": "dir",
+		"name": "electronjs",
+		"label": "Electron 开发笔记"
+	},
+	{
+		"type": "dir",
+		"name": "front_end",
+		"label": "前端八股文"
+	},
+	{
+		"type": "dir",
+		"name": "fool",
+		"label": "捣鼓小玩具"
+	},
+	{
+		"type": "dir",
+		"name": "startsite",
+		"label": "小站美化历史"
+	}
 ]
