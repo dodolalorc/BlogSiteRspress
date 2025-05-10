@@ -1,11 +1,13 @@
 # Rspress website
 
+新版个人博客网站施工中 🛠️
+
 ## Setup
 
 Install the dependencies:
 
 ```bash
-npm install
+bun install
 ```
 
 ## Get started
@@ -13,17 +15,17 @@ npm install
 Start the dev server:
 
 ```bash
-npm run dev
+bun run dev
 ```
 
 Build the website for production:
 
 ```bash
-npm run build
+bun run build
 ```
 
 Preview the production build locally:
 
 ```bash
-npm run preview
+bun run preview
 ```
