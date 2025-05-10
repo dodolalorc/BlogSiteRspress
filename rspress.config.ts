@@ -1,6 +1,5 @@
 import * as path from "node:path";
 import { pluginLastUpdated } from "@rspress/plugin-last-updated";
-import { pluginPlayground } from "@rspress/plugin-playground";
 import { defineConfig } from "rspress/config";
 
 export default defineConfig({
@@ -14,7 +13,7 @@ export default defineConfig({
 	mediumZoom: {
 		selector: ".rspress-doc img",
 	},
-	plugins: [pluginPlayground(), pluginLastUpdated()],
+	plugins: [pluginLastUpdated()],
 	route: {
 		exclude: [],
 	},
