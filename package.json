@@ -1,19 +1,24 @@
 {
-	"name": "BlogSiteRspress",
-	"version": "1.0.0",
-	"private": true,
-	"scripts": {
-		"build": "rspress build",
-		"dev": "rspress dev",
-		"preview": "rspress preview",
-		"lint": "biome lint"
-	},
-	"dependencies": {
-		"@rspress/shared": "^1.43.13",
-		"rspress": "^1.40.2"
-	},
-	"devDependencies": {
-		"@rspress/plugin-last-updated": "^1.43.13",
-		"@types/node": "^18.11.17"
-	}
+  "name": "BlogSiteRspress",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rspress build",
+    "dev": "rspress dev",
+    "preview": "rspress preview",
+    "lint": "biome lint"
+  },
+  "dependencies": {
+    "@rspress/shared": "^1.43.13",
+    "rehype-katex": "^7.0.1",
+    "rehype-mermaid": "^3.0.0",
+    "remark-math": "^6.0.0",
+    "remark-rehype": "^11.1.2",
+    "rspress": "^1.40.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@rspress/plugin-last-updated": "^1.43.13",
+    "@types/node": "^18.11.17"
+  }
 }
