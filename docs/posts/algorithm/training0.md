@@ -1145,8 +1145,7 @@ int main() {
 状态转移：
 
 $$
-dp[xi][yi]=max(dp[xi][yi],dp[xi+1][yi]+1)\\
-其他三个点同理
+dp[xi][yi]=max(dp[xi][yi],dp[xi+1][yi]+1)
 $$
 
 同时记录最长的路径即可。

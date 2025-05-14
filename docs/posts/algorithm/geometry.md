@@ -311,7 +311,7 @@ bool collinear_judge(const line& a, const line& b) {
 
 ![img](https://img.dodolalorc.cn/i/2024/08/19/66c2bf6d5bd18.png)
 
-这里$△ABC$与$△ABD$共底，面积之比（叉积之比）即为 CK 与 KD 的长度之比。则：
+这里$\triangle ABC$与$\triangle ABD$共底，面积之比（叉积之比）即为 CK 与 KD 的长度之比。则：
 
 对$K(k_x,k_y),C(c_x,c_y),D(d_x,d_y)$，有：
 
