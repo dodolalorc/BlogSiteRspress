@@ -84,14 +84,12 @@ void solve() {
 
 $$
 \begin{align*}
-d_1=\&\min(d_0\bmod ak,d_0-d_0\bmod ak)\\\\
-=\&\min(d_0\bmod k,d_0-d_0\bmod k)\\\\
-\\\\
-d_2=\&\min(d_1\bmod bk,d_1-d_1\bmod bk)\\\\
-=\&\min(d_1\bmod k,d_1-d_1\bmod k)\\\\
-=\&d_1\\\\
-=\&\min(d_0\bmod k,d_0-d_0\bmod k)\\\\
-\\\\
+d_1=\&\min(d_0\bmod ak,d_0-d_0\bmod ak)\\
+=\&\min(d_0\bmod k,d_0-d_0\bmod k)\\
+d_2=\&\min(d_1\bmod bk,d_1-d_1\bmod bk)\\
+=\&\min(d_1\bmod k,d_1-d_1\bmod k)\\
+=\&d_1\\
+=\&\min(d_0\bmod k,d_0-d_0\bmod k)\\
 \&.......
 \end{align*}
 $$

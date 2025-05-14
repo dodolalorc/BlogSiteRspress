@@ -53,15 +53,15 @@ license: ""
 
 边缘一圈的点所在的线一定不是一个环，所以最少的线数相当于都是`A型`或`B型`时的线数，也就是$N\times M$个，若要比$N\times M$个多，则多的部分只能是图形中环的数目，贪心的让所有的环最小，则能构造出最多的环，最小的环如例图中一样，当平铺的方式是
 $$
-AB\\\\
+AB\\
 BA
 $$
 时，形成的环是最小的。
 
 同时注意到，成环的四块砖块是可以共用的，也就是说在：
 $$
-ABAB\\\\
-BABA\\\\
+ABAB\\
+BABA\\
 ABAB
 $$
 中有**3**个环。
@@ -432,7 +432,7 @@ void solve() {
 $$
 g(k)= 
 \begin{cases}
-max(g(k-1) + i,g(l_j-1)+f(j)),& (k=r_j \quad and \quad l_i \lt l_j)\\\\
+max(g(k-1) + i,g(l_j-1)+f(j)),& (k=r_j \quad and \quad l_i \lt l_j)\\
 g(k-1) + i & 
 \end{cases}
 $$

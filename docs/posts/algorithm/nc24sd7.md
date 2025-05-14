@@ -55,7 +55,7 @@ license: ""
 $$
 f(x)=
 \begin{cases}
-x\quad x\lt m\\\\
+x\quad x\lt m\\
 x+k\times (\lfloor (x-m)/(m-k)\rfloor+1)
 \end{cases}
 $$

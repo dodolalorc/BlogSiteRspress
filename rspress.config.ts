@@ -1,7 +1,8 @@
 import * as path from "node:path";
 import { pluginLastUpdated } from "@rspress/plugin-last-updated";
 import { defineConfig } from "rspress/config";
-import mermaid from 'rspress-plugin-mermaid';
+import mermaid from "rspress-plugin-mermaid";
+import readingTime from "rspress-plugin-reading-time";
 
 import { pluginKatex } from "./src/plugins/Katex";
 
@@ -14,8 +15,15 @@ export default defineConfig({
     dark: "/icon.png",
   },
   plugins: [
-    pluginLastUpdated(), 
-    mermaid(),
+    pluginLastUpdated(),
+    mermaid({
+      mermaidConfig: {
+        theme: "forest",
+      },
+    }),
+    readingTime({
+      defaultLocale: "zh-CN",
+    }),
     pluginKatex(),
   ],
   route: {

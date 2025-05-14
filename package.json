@@ -17,7 +17,8 @@
     "remark-rehype": "^11.1.2",
     "rspress": "^1.40.2",
     "rspress-plugin-devkit": "^0.3.0",
-    "rspress-plugin-mermaid": "^0.3.0"
+    "rspress-plugin-mermaid": "^0.3.0",
+    "rspress-plugin-reading-time": "^0.3.0"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",

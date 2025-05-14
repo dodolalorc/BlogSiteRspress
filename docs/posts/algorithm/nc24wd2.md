@@ -194,7 +194,7 @@ void solve() {
 $$
 w_{u,v}=
 \begin{cases}
-0& \text{u=v}\\\\
+0& \text{u=v}\\
 |a_u+a_v|+|a_u-a_v|& \text{u ≠ v}
 \end{cases}
 $$
@@ -218,7 +218,7 @@ $a_i(1\leq a_i\leq 2\times 10^5)$
 $$
 |a_i+a_j|+|a_i-a_j|=
 \begin{cases}
-&a_i+a_j+a_i-a_j&=2\times a_i&\quad a_i\ge a_j \\\\
+&a_i+a_j+a_i-a_j&=2\times a_i&\quad a_i\ge a_j \\
 &a_i+a_j+a_j-a_i&=2\times a_j&\quad a_i\lt a_j 
 \end{cases}
 $$
@@ -251,7 +251,7 @@ void solve() {
 $$
 w_{u,v}=
 \begin{cases}
-0& \text{u=v}\\\\
+0& \text{u=v}\\
 |a_u+a_v|-|a_u-a_v|& \text{u ≠ v}
 \end{cases}
 $$
@@ -275,7 +275,7 @@ $a_i(1\leq a_i\leq 2\times 10^5)$
 $$
 |a_i+a_j|-|a_i-a_j|=
 \begin{cases}
-&a_i+a_j-a_i+a_j&=2\times a_j&\quad a_i\ge a_j \\\\
+&a_i+a_j-a_i+a_j&=2\times a_j&\quad a_i\ge a_j \\
 &a_i+a_j-a_j+a_i&=2\times a_i&\quad a_i\lt a_j 
 \end{cases}
 $$
