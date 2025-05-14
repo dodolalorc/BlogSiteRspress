@@ -14,6 +14,7 @@ export default defineConfig({
     light: "/icon.png",
     dark: "/icon.png",
   },
+  logoText: 'Dodola',
   plugins: [
     pluginLastUpdated(),
     mermaid({
@@ -24,13 +25,16 @@ export default defineConfig({
     readingTime({
       defaultLocale: "zh-CN",
     }),
-    pluginKatex(),
+    pluginKatex({
+      strict: false,
+    }),
   ],
   route: {
     exclude: [],
   },
   globalStyles: path.join(__dirname, "src", "styles", "index.css"),
   themeConfig: {
+    enableScrollToTop: true,
     socialLinks: [
       {
         icon: "github",

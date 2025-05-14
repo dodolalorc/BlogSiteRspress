@@ -4,7 +4,7 @@ pageType: home
 hero:
   name: Hi Here!
   text: This is dodola's blog
-  tagline: 分享算法题解、编程语言、前端框架等相关内容
+  tagline: 分享算法题解、编程语言、前端开发等相关内容
   actions:
     - theme: brand
       text: ✨ 关于我
