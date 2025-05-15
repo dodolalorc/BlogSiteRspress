@@ -1,21 +1,18 @@
-import Theme, { Search } from 'rspress/theme';
-import DoHomeLayout from './layouts/DoHomeLayout';
-import { Tag, HomeProps } from './types';
-
+import Theme from "rspress/theme";
+import DoHomeLayout from "./layouts/DoHomeLayout";
+import type { Tag, HomeProps } from "./types";
 
 const HomeLayout = () => {
-  const myTags = [
-    {}
-  ] as Tag[];
-  const props:HomeProps = {
-    name: 'My Blog',
-    text: 'Welcome to my blog!',
-    tagline: 'Sharing my thoughts and experiences.',
-    avatar: '/miku.png',
+  const myTags = [{}] as Tag[];
+  const props: HomeProps = {
+    name: "Hi Here!",
+    text: "This is dodola's blog",
+    tagline: "Sharing my thoughts and experiences.",
+    avatar: "/miku.png",
     tags: myTags,
-  }
-  return <DoHomeLayout {...props}  />;
-}
+  };
+  return <DoHomeLayout {...props} />;
+};
 
 export default {
   ...Theme,
@@ -23,4 +20,4 @@ export default {
 };
 
 // 重导出其他部分
-export * from 'rspress/theme';
+export * from "rspress/theme";
