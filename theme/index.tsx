@@ -1,13 +1,20 @@
 import Theme, { Search } from 'rspress/theme';
 import DoHomeLayout from './layouts/DoHomeLayout';
-import { Tag } from './types';
+import { Tag, HomeProps } from './types';
 
 
 const HomeLayout = () => {
   const myTags = [
     {}
   ] as Tag[];
-  return <DoHomeLayout name="dodola" avatar="/miku.png" tags={myTags} text="123" tagline='1234' />;
+  const props:HomeProps = {
+    name: 'My Blog',
+    text: 'Welcome to my blog!',
+    tagline: 'Sharing my thoughts and experiences.',
+    avatar: 'https://example.com/avatar.jpg',
+    tags: myTags,
+  }
+  return <DoHomeLayout {...props}  />;
 }
 
 export default {

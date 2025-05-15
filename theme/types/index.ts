@@ -6,3 +6,11 @@ export interface Tag {
     url: string;
     description: string;
 }
+
+export interface HomeProps {
+    name: string;
+    text: string;
+    tagline: string;
+    avatar: string;
+    tags: Tag[];
+}

@@ -1,14 +1,5 @@
 import type React from "react";
-import { Tag } from '../types';
-
-interface HomeProps {
-  // Define any props you want to pass to the HomeLayout component
-  name: string;
-  text: string;
-  tagline: string;
-  avatar: string;
-  tags: Tag[];
-}
+import { Tag,HomeProps } from '../types';
 
 const DoHomeLayout: React.FC<HomeProps> = ({ name,text,tagline,avatar,tags, }) => {
   return (
