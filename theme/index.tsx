@@ -11,7 +11,7 @@ const HomeLayout = () => {
     name: 'My Blog',
     text: 'Welcome to my blog!',
     tagline: 'Sharing my thoughts and experiences.',
-    avatar: 'https://example.com/avatar.jpg',
+    avatar: '/miku.png',
     tags: myTags,
   }
   return <DoHomeLayout {...props}  />;
