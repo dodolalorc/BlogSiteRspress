@@ -3,6 +3,8 @@ import { pluginLastUpdated } from "@rspress/plugin-last-updated";
 import { defineConfig } from "rspress/config";
 import mermaid from "rspress-plugin-mermaid";
 import readingTime from "rspress-plugin-reading-time";
+import { pluginSass } from '@rsbuild/plugin-sass';
+
 
 import { pluginKatex } from "./src/plugins/Katex";
 
@@ -16,6 +18,7 @@ export default defineConfig({
   },
   logoText: 'Dodola',
   plugins: [
+    pluginSass(),
     pluginLastUpdated(),
     mermaid({
       mermaidConfig: {
