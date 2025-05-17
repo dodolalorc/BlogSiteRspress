@@ -37,17 +37,13 @@ jobs:
         run: npm install -g pnpm
           
       - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Install dependencies
-        run: pnpm install
+        run: |
+          pnpm install
+
       - name: Build with Rspress
         run: |
           pnpm run build
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: doc_build
-
+          
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4 # 一个自动发布github pages的action
         with:
