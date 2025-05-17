@@ -21,29 +21,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          submodules: flase # 是否获取子模块
-          fetch-depth: 0
-          
-      - name: Install Node.js
-        uses: actions/setup-node@v3
+          fetch-depth: 0 # Not needed if lastUpdated is not enabled
+      - uses: yarn/action-setup@v3 # pnpm is optional but recommended, you can also use npm / yarn
         with:
           version: 8
       - name: Setup Node
-        run: npm install -g pnpm
-
-      - uses: actions/setup-node@v4
+        uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: pnpm
+          cache: yarn
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Install dependencies
-        run: pnpm install
+        run: yarn install
       - name: Build with Rspress
         run: |
-          pnpm run build
+          yarn run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
