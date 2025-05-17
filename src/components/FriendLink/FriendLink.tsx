@@ -46,8 +46,8 @@ const FriendLink: React.FC<FriendProps> = ({ name, url, avatar, bio }) => {
 
         <div className="friend-link-info">
           <div className="friend-name-div">
-            <i className="i-hugeicons-sakura" />
             <span className="friend-name">{name}</span>
+            <i className="i-hugeicons-cursor-magic-selection-02 px-3" />
           </div>
           <p className="friend-bio">{bio}</p>
         </div>
