@@ -1,11 +1,6 @@
 [
   {
     "type": "file",
-    "name": "index",
-    "label": "项目总览"
-  },
-  {
-    "type": "file",
     "name": "friendlink",
     "lable": ""
   }
