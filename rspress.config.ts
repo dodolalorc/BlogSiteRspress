@@ -3,10 +3,10 @@ import { pluginLastUpdated } from "@rspress/plugin-last-updated";
 import { defineConfig } from "rspress/config";
 import mermaid from "rspress-plugin-mermaid";
 import readingTime from "rspress-plugin-reading-time";
-import { pluginSass } from '@rsbuild/plugin-sass';
-
+import { pluginSass } from "@rsbuild/plugin-sass";
 
 import { pluginKatex } from "./src/plugins/Katex";
+import { pluginPageExtend } from "./src/plugins/PageExtend";
 
 export default defineConfig({
   root: path.join(__dirname, "docs"),
@@ -16,7 +16,7 @@ export default defineConfig({
     light: "/icon.png",
     dark: "/icon.png",
   },
-  logoText: 'Dodola',
+  logoText: "Dodola",
   plugins: [
     pluginSass(),
     pluginLastUpdated(),
@@ -31,6 +31,7 @@ export default defineConfig({
     pluginKatex({
       strict: false,
     }),
+    pluginPageExtend(),
   ],
   route: {
     exclude: [],

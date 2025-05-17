@@ -1,6 +1,7 @@
 import type React from "react";
-import type { Tag, HomeProps, Action } from "../types";
+import type { Tag, HomeProps, Action } from "../../types";
 import { Button, HomeFeature } from "rspress/theme";
+import "./HomeLayout.css";
 
 const DoHomeLayout: React.FC<HomeProps> = ({
   name,
