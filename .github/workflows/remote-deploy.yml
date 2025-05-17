@@ -19,24 +19,22 @@ jobs:
         with:
           version: 8
       - name: Setup Node
-        run: npm install -g pnpm
-        
-      - uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
           node-version: 20
-          cache: pnpm
+          cache: ''
+
+      - name: Setup pnpm
+        run: npm install -g pnpm
+          
       - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Install dependencies
-        run: pnpm install
+        run: |
+          pnpm install
+
       - name: Build with Rspress
         run: |
           pnpm run build
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: doc_build
-
+          
       - name: ssh deploy
         uses: easingthemes/ssh-deploy@v5.1.0
         with:
