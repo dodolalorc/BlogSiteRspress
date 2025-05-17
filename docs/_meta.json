@@ -1,10 +1,5 @@
 [
   {
-    "text": "🍍主页",
-    "link": "/",
-    "activeMatch": "^/$"
-  },
-  {
     "text": "🍬博客",
     "link": "/posts/",
     "activeMatch": "/posts/"
