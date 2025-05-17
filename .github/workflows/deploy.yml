@@ -21,15 +21,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
         with:
-          fetch-depth: 0 # Not needed if lastUpdated is not enabled
-      - uses: pnpm/action-setup@v3 # pnpm is optional but recommended, you can also use npm / yarn
+          submodules: flase # 是否获取子模块
+          fetch-depth: 0
+          
+      - name: Install Node.js
+        uses: actions/setup-node@v3
         with:
           version: 8
       - name: Setup Node
         run: npm install -g pnpm
-        
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
