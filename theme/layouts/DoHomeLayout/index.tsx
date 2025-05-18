@@ -1,6 +1,7 @@
 import type React from "react";
 import type { Tag, HomeProps, Action } from "../../types";
 import { Button, HomeFeature } from "rspress/theme";
+import { Badge } from "rspress/theme";
 import "./HomeLayout.css";
 
 const DoHomeLayout: React.FC<HomeProps> = ({
@@ -87,7 +88,56 @@ const DoHomeLayout: React.FC<HomeProps> = ({
         )} */}
       </main>
       <footer className="home-layout-footer">
-        <p>&copy; 2023 My Blog. All rights reserved.</p>
+        <p className="beian">
+          <Badge type="info">
+            <i className="i-hugeicons-identity-card" />
+            <span>备案号</span>
+          </Badge>
+          <img
+            className="beian-icon"
+            src="/img/icons/govbeian.png"
+            alt="Government Beian Icon"
+          />
+          <a
+            className="gov"
+            href="https://beian.mps.gov.cn/#/query/webSearch?code=33010902003733"
+            rel="noreferrer"
+            title="浙公网安备33010902003733"
+            target="_blank"
+          >
+            浙公网安备33010902003733
+          </a>
+          <a
+            className="icp"
+            href="https://beian.miit.gov.cn/#/Integrated/index"
+            target="_blank"
+            rel="noreferrer"
+            title="浙ICP备2023048052号-1"
+          >
+            浙ICP备2023048052号-1
+          </a>
+        </p>
+        <p className="home-layout-footer-text">
+          <Badge type="info">
+            <i className="i-hugeicons-energy-ellipse" />
+            <span>Powered by</span>
+          </Badge>
+          <a
+            href="https://rspress.dev"
+            target="_blank"
+            rel="noreferrer"
+            title="RSPRESS"
+          >
+            Rspress
+          </a>
+        </p>
+        <p>
+          <Badge type="info">
+            <i className="i-hugeicons-energy-ellipse" />
+            <span>Copyright</span>
+          </Badge>
+          2023 <i className="i-hugeicons-at" /> dodola's Blog. All rights reserved.
+        </p>
       </footer>
     </div>
   );
