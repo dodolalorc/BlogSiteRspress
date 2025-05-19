@@ -11,8 +11,10 @@ declare module "@rspress/shared" {
 export function pluginPageExtend(): RspressPlugin {
   return {
     name: "rspress-page-extend",
-    extendPageData(pageData, isProd) {
-      pageData.home = {} as HomeProps;
+    extendPageData(pageData) {
+      if (pageData.frontmatter.home) {
+        // console.log("pageData", pageData.frontmatter.home);
+      }
     },
   };
 }

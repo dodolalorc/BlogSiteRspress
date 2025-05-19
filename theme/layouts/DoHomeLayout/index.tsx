@@ -2,16 +2,13 @@ import type React from "react";
 import type { Tag, HomeProps, Action } from "../../types";
 import { Button, HomeFeature } from "rspress/theme";
 import { Badge } from "rspress/theme";
+import { usePageData } from "rspress/runtime";
 import "./HomeLayout.css";
 
-const DoHomeLayout: React.FC<HomeProps> = ({
-  name,
-  text,
-  tagline,
-  avatar = "",
-  tags = [] as Tag[],
-  actions = [] as Action[],
-}) => {
+const DoHomeLayout: React.FC = () => {
+  const pageData = usePageData();
+  const homeData = pageData.page.frontmatter.home as HomeProps;
+  const { name, text, tagline, avatar, tags, actions } = homeData;
   return (
     <div className="home-layout">
       <header className="home-layout-header">
