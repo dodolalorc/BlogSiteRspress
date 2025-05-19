@@ -25,10 +25,9 @@ lightgallery: false
 license: ""
 ---
 
-{/* // import { Badge } from '@theme';
-
-// <Badge text="info" type="info" /> */}
-
+{{< admonition type=info title="GitHub仓库地址" open=false >}}
+GitHub 仓库地址：[BlockChain](https://github.com/dodolalorc/BlockChain)
+{{< /admonition >}}
 
 ## 一、产品方案
 
