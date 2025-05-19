@@ -1,5 +1,5 @@
 import Theme from "rspress/theme";
-import DoHomeLayout from "./layouts/DoHomeLayout";
+import DoHomeLayout from "./layouts/HomeLayout";
 import type { Tag, HomeProps } from "./types";
 
 const HomeLayout = () => {

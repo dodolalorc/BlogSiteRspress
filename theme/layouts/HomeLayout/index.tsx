@@ -5,7 +5,7 @@ import { Badge } from "rspress/theme";
 import { usePageData } from "rspress/runtime";
 import "./HomeLayout.css";
 
-const DoHomeLayout: React.FC = () => {
+const HomeLayout: React.FC = () => {
   const pageData = usePageData();
   const homeData = pageData.page.frontmatter.home as HomeProps;
   const { name, text, tagline, avatar, tags, actions } = homeData;
@@ -140,4 +140,4 @@ const DoHomeLayout: React.FC = () => {
   );
 };
 
-export default DoHomeLayout;
+export default HomeLayout;
