@@ -1,5 +1,4 @@
 import * as path from "node:path";
-import { pluginLastUpdated } from "@rspress/plugin-last-updated";
 import { defineConfig } from "rspress/config";
 import mermaid from "rspress-plugin-mermaid";
 import readingTime from "rspress-plugin-reading-time";
@@ -18,7 +17,6 @@ export default defineConfig({
   },
   logoText: "Dodola",
   plugins: [
-    pluginLastUpdated(),
     mermaid({
       mermaidConfig: {
         theme: "forest",
