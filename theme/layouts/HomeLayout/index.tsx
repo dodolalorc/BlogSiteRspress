@@ -1,5 +1,5 @@
 import type React from "react";
-import type { HomeProps } from "../../types";
+import type { HomeProps } from "@theme/types";
 import { Button } from "rspress/theme";
 import { usePageData } from "rspress/runtime";
 import "./HomeLayout.css";

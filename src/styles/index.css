@@ -1,5 +1,6 @@
 @unocss;
 @tailwind base;
+
 :root {
   /* 修改主题色 */
   --rp-c-brand: #f00;

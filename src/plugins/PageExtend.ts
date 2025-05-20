@@ -1,5 +1,5 @@
 import type { RspressPlugin } from "@rspress/shared";
-import type { HomeProps, FooterProps } from "@/theme/types";
+import type { HomeProps, FooterProps } from "@theme/types";
 
 // Extend the PageIndexInfo type
 declare module "@rspress/shared" {
