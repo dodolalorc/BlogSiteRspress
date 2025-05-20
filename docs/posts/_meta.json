@@ -16,11 +16,6 @@
   },
   {
     "type": "dir",
-    "name": "rust",
-    "label": "Rust 学习"
-  },
-  {
-    "type": "dir",
     "name": "electronjs",
     "label": "Electron 开发笔记"
   },

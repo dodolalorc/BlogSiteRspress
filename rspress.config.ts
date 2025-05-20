@@ -52,4 +52,12 @@ export default defineConfig({
       },
     ],
   },
+  builderConfig: {
+    resolve: {
+      alias: {
+        '@/*': path.resolve(__dirname, 'src'),
+        '@theme/*': path.resolve(__dirname, 'theme'),
+      }
+    }
+  }
 });

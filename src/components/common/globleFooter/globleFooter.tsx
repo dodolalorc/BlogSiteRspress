@@ -1,4 +1,4 @@
-import type { FooterProps } from "../../../../theme/types";
+import type { FooterProps } from "@theme/types";
 import { usePageData } from "rspress/runtime";
 import { Badge } from "rspress/theme";
 import "./globleFooter.css";
