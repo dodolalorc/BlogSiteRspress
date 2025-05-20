@@ -1,5 +1,5 @@
 import type React from "react";
-import "./FriendLink.css";
+import "./friendLink.css";
 
 interface FriendProps {
   name: string;
