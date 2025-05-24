@@ -5,7 +5,8 @@ home:
   text: "This is dodola's blog"
   tagline: "Sharing my thoughts and experiences."
   avatar: "/miku.png"
-  tags: []
+  emoji: "❤️"
+  signature: "loveling"
   actions:
     - text: "✨ 关于我"
       link: "/about"

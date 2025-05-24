@@ -20,6 +20,8 @@ export interface HomeProps {
   text: string;
   tagline: string;
   avatar: string;
+  emoji: string;
+  signature: string;
   tags?: Tag[];
   actions?: Action[];
 }
